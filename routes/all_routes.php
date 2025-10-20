@@ -1,0 +1,26 @@
+<?php
+use Bramus\Router\Router;
+$router = new Router();
+require __DIR__ . '/aktivitas_log.php';
+require __DIR__ . '/ap_faktor_pengurang.php';
+require __DIR__ . '/ap_payment_detail.php';
+require __DIR__ . '/ap_payment_header.php';
+require __DIR__ . '/ap_voucher.php';
+require __DIR__ . '/departemen.php';
+require __DIR__ . '/divisi.php';
+require __DIR__ . '/good_receipt.php';
+require __DIR__ . '/gr_detail.php';
+require __DIR__ . '/gudang.php';
+require __DIR__ . '/hak_akses.php';
+require __DIR__ . '/item.php';
+require __DIR__ . '/item_class.php';
+require __DIR__ . '/item_group.php';
+require __DIR__ . '/modul.php';
+require __DIR__ . '/peran.php';
+require __DIR__ . '/po_detail.php';
+require __DIR__ . '/pr_bidding.php';
+require __DIR__ . '/pr_detail.php';
+require __DIR__ . '/purchase_order.php';
+require __DIR__ . '/purchase_request.php';
+require __DIR__ . '/user_account.php';
+require __DIR__ . '/vendor.php';
